@@ -1,0 +1,4 @@
+skirnir
+=======
+
+erlang smtp server
