@@ -1,0 +1,16 @@
+{application, skirnir,
+ [
+  {id, "Skirnir"}
+  {description, "SMTP server"},
+  {vsn, "git"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ranch,
+                  crypto,
+                  gen_smtp
+                 ]},
+  {mod, { skirnir_app, []}},
+  {env, []}
+ ]}.
