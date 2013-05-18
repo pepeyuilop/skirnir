@@ -2,7 +2,7 @@
  [
   {id, "Skirnir"}
   {description, "SMTP server"},
-  {vsn, "git"},
+  {vsn, git},
   {registered, []},
   {applications, [
                   kernel,
